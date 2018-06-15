@@ -9,21 +9,26 @@ War file path : /opt/apache-tomcat-8.0.52/webapps
 
 Navigate to the folder where the docker file exists
 
-For building image from the file
+For building image from the file:
+
 docker build -t tomcat:latest .
 
-To run the image
+To run the image:
+
 docker run -d customcat
 
 To see the container details:
+
 docker ps
 
-To get into the container. (803a6d047922, you will get from the previous docker ps command)
+To get into the container. (803a6d047922, you will get from the previous docker ps command):
+
 docker exec -it 803a6d047922 bash
 
 Now you can login and check.
 
-Or, start the container with port mapping
+Or, start the container with port mapping:
+
 docker run -d -p 8080:8080 customcat
 
 Now you can access the new conainter via. http://localhost:8080
