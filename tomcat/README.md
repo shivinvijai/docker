@@ -1,7 +1,10 @@
 # docker
 Docker file for Tomcat 8.0.52 and Java 1.7.0_171
+
 Tomcat path : /opt/apache-tomcat-8.0.52
+
 War file path : /opt/apache-tomcat-8.0.52/webapps
+
 # You need to download apache-tomcat-8.0.52.tar.gz and jdk-7u171-linux-x64.rpm and place it in the folder where this Docker file exists.
 
 Navigate to the folder where the docker file exists
